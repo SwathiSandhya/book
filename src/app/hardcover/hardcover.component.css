@@ -1,0 +1,46 @@
+.card {
+    
+    padding: 10px;
+    margin: 5px;
+    text-align:center;
+    
+}
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+
+  
+
+h2,h1{
+    text-align:justify;
+    font-style:italic;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    padding: 10px;
+    margin-inline-start: 50px;
+    
+}
+
+.btn1{
+   margin-right: 10px;
+   margin-inline-start: 30px;
+   height: 30px;
+   width: 220px;
+   padding:2px;
+   border-radius: 30px;
+
+}
+
+.btn {
+    margin-right: 10px;
+    margin-inline-start: 30px;
+    height: 30px;
+    width: 100px;
+    padding:2px;
+    border-radius: 20px;
+ 
+ }

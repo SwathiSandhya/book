@@ -1,0 +1,57 @@
+
+<hr>
+<h1>Top Books</h1>
+<button class="btn1">Biographies &amp; Memoirs</button>
+<button class="btn1">Business &amp; Personal Finance</button>
+<button class="btn1">  Comics &amp; Graphic Novels</button>
+<button class="btn1">   Computers &amp; Internet</button>
+<button class="btn1">  Genre Charts</button>
+
+
+<hr>
+<h2 >
+  New York Times Fiction
+</h2>
+<div class="container">
+ 
+ <div class="item">
+        
+<div class="row">
+  
+ <ng-container *ngFor="let d of hardCoverDispaly">
+   
+             <div class="card col-md-2">
+             
+               <img src="{{d.book_image}}" alt="">
+             
+               <br>
+              
+               <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{d.rank}}</h5>
+   
+                 <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"> {{d.title}} </p>
+                 <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"> {{d.description}} </p>
+                 <br>
+                 
+                 <button class="btn btn-primary">Buy Now</button>
+                
+
+                 </div>
+
+                   
+            </ng-container>
+
+           
+            </div>
+            </div>
+    
+        </div>
+
+    
+       
+
+
+
+
+
+
+
